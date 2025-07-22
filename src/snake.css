@@ -1,0 +1,38 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#startscreen {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+#gameboard {
+  display: grid;
+  grid-template-columns: repeat(25, 20px);
+  grid-template-rows: repeat(25, 20px);
+  gap: 1.3px;
+} 
+
+.cell {
+  width: 20px;
+  height: 20px;
+  /* background-color: #6ab04c; grass */
+}
+
+.grass {
+  background-color: green;
+}
+.snake {
+  background-color: red;
+}
+
+.food {
+  background-color: yellow;
+}
